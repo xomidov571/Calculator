@@ -12,6 +12,9 @@ namespace Calculator
 {
     public partial class Form1 : Form
     {
+        private int btnNumber = 0;
+        private int btnOperator = 0;
+        private bool IsPressed = true
         public Form1()
         {
             InitializeComponent();
@@ -28,6 +31,11 @@ namespace Calculator
         }
 
         private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn0_Click(object sender, EventArgs e)
         {
 
         }
