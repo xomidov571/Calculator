@@ -14,7 +14,7 @@ namespace Calculator
     {
         private int btnNumber = 0;
         private int btnOperator = 0;
-        private bool IsPressed = true
+        private bool IsPressed = true;
         public Form1()
         {
             InitializeComponent();

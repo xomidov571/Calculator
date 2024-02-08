@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Library.Servises;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Food.Desktop
+namespace Library
 {
     internal static class Program
     {
@@ -16,7 +17,8 @@ namespace Food.Desktop
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            BookService bookService = new BookService();
+            Application.Run(new DashboardWindow(bookService));
         }
     }
 }

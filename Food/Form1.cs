@@ -16,5 +16,20 @@ namespace Food
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnremove_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btngreenpharm_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
